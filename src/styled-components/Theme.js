@@ -1,17 +1,18 @@
 export default {
   colors: {
-    black: '#000000',
-    grey: '#888',
-    darkgrey: '#666',
-    primary: '#02DBB6',
+    light: '#FFF',
+    dark: '#666',
+    bl: '#FF33BB',
+    pl: '#CC33FF',
+    l1: '#6A4CFF',
+    sa: '#3388FF',
+    ll: '#00BDBD',
   },
   fonts: {
-    default: "'Helvetica Neue', sans-serif",
-    black: "'HelveticaNeue-CondensedBlack', sans-serif",
-    light: "'HelveticaNeue-Light', sans-serif",
-    classic: 'Roboto,sans-serif',
+    default: "'Raleway ExtraBold', sans-serif",
+    info: "'Barlow Condensed SemiBold', sans-serif",
+    number: "'Barlow Condensed Bold', sans-serif",
   },
-  spacer: space => `${space * 1}rem`,
   medias: {
     desktopL: '(max-width: 1899px)',
     desktop: '(max-width: 1439px)',
