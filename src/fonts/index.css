@@ -1,6 +1,8 @@
 /* raleway-800 - latin */
 @font-face {
-  font-family: 'Raleway ExtraBold';
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
   src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
     url('raleway-v17-latin-800.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */ url('raleway-v17-latin-800.woff')
@@ -8,7 +10,9 @@
 }
 /* barlow-condensed-600 - latin */
 @font-face {
-  font-family: 'Barlow Condensed SemiBold';
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
   src: local('Barlow Condensed SemiBold'), local('BarlowCondensed-SemiBold'),
     url('barlow-condensed-v4-latin-600.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
@@ -16,7 +20,9 @@
 }
 /* barlow-condensed-700 - latin */
 @font-face {
-  font-family: 'Barlow Condensed Bold';
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
   src: local('Barlow Condensed Bold'), local('BarlowCondensed-Bold'),
     url('barlow-condensed-v4-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */

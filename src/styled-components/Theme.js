@@ -9,9 +9,8 @@ export default {
     ll: '#00BDBD',
   },
   fonts: {
-    default: "'Raleway ExtraBold', sans-serif",
-    info: "'Barlow Condensed SemiBold', sans-serif",
-    number: "'Barlow Condensed Bold', sans-serif",
+    Raleway: "'Raleway', sans-serif",
+    BarlowCondensed: "'Barlow Condensed', sans-serif",
   },
   medias: {
     desktopL: '(max-width: 1899px)',
