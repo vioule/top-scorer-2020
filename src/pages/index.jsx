@@ -1,14 +1,6 @@
 import React from 'react'
-import { Description, Content, Name, Number, Date } from '../components/Texts'
+import App from '../components/App'
 
-const IndexPage = () => (
-  <div>
-    <Description>infos</Description>
-    <Content>Germany</Content>
-    <Name>Top scorer</Name>
-    <Number>1</Number>
-    <Date>2020</Date>
-  </div>
-)
+const IndexPage = () => <App />
 
 export default IndexPage

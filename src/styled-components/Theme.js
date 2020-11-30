@@ -1,7 +1,7 @@
 export default {
   colors: {
     light: '#FFF',
-    dark: '#666',
+    dark: '#001166',
     bl: '#FF33BB',
     pl: '#CC33FF',
     l1: '#6A4CFF',

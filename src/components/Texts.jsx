@@ -23,12 +23,16 @@ export const Content = styled(BarlowCondensed)`
   font-size: 1rem;
 `
 export const Name = styled(Raleway)`
+  display: inline-block;
   font-size: 4.45rem;
 `
 export const Number = styled(BarlowCondensedBold)`
   font-size: 8.35rem;
 `
 export const Date = styled(BarlowCondensedBold)`
+  display: inline-block;
+  position: relative;
+  top: -0.5rem;
   font-size: 4.73rem;
   letter-spacing: 0.1em;
 `
