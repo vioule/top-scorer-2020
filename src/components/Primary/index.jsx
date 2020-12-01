@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import TopScorer from './TopScorer'
+import Menu from '../Menu'
 
 const Container = styled.div`
   position: fixed;
@@ -18,5 +19,6 @@ const Container = styled.div`
 export default () => (
   <Container>
     <TopScorer />
+    <Menu />
   </Container>
 )

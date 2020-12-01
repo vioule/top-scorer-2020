@@ -14,6 +14,7 @@ const Container = styled.span`
   align-content: center;
   flex-wrap: wrap;
   column-gap: 1rem;
+  padding: 6.25%;
   color: ${({ theme }) => theme.colors.light};
 `
 
