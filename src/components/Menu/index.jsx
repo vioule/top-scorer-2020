@@ -5,7 +5,6 @@ import { AddPlayer, SubPlayer } from './Player/Buttons'
 import Leagues from './Leagues'
 
 const Container = styled.div`
-  display: none;
   opacity: 0;
   position: fixed;
   top: 0;

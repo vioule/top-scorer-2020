@@ -1,12 +1,12 @@
 export default {
   colors: {
     light: '#FFF',
-    dark: '#001166',
-    bl: '#FF33BB',
-    pl: '#CC33FF',
-    l1: '#6A4CFF',
-    sa: '#3388FF',
-    ll: '#00BDBD',
+    dark: 'rgb(0,17,102)',
+    bl: 'rgb(255,51,187)',
+    pl: 'rgb(204,51,255)',
+    l1: 'rgb(106,76,255)',
+    sa: 'rgb(51,136,255)',
+    ll: 'rgb(0,189,189)',
   },
   fonts: {
     Raleway: "'Raleway', sans-serif",

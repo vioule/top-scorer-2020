@@ -1,7 +1,9 @@
 import gsap from 'gsap/gsap-core'
 import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
+import { useDispatch } from 'react-redux'
 import { LeagueLogo } from '../../Logos'
+import { setLeague } from '../../../store/menu/action'
 
 const Container = styled.div`
   position: relative;
@@ -10,7 +12,6 @@ const Container = styled.div`
   opacity: ${({ active }) => (active ? 1 : 0.5)};
   transition: opacity 0.25s linear;
   &:hover {
-    cursor: ${({ active }) => (active ? 'default' : 'pointer')};
     opacity: 1;
   }
   @media ${({ theme }) => theme.medias.portrait} {
@@ -53,8 +54,21 @@ const Circle = styled.div`
   border-radius: 50%;
 `
 
+const Clickable = styled.div`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  &:hover {
+    cursor: ${({ active }) => (active ? 'default' : 'pointer')};
+  }
+`
+
 export default ({ league, target }) => {
   const ref = useRef(null)
+  const dispatch = useDispatch()
   const [active, setActive] = useState(false)
   useEffect(() => {
     if (league === target) {
@@ -66,18 +80,19 @@ export default ({ league, target }) => {
     }
   }, [league])
   return (
-    <Container
-      active={active}
-      onClick={() => {
-        setActive(!active)
-      }}
-    >
+    <Container active={active}>
       <SVGContainer>
         <CircleContainer>
           <Circle ref={ref} />
         </CircleContainer>
         <LeagueLogo league={target} />
       </SVGContainer>
+      <Clickable
+        onClick={() => {
+          dispatch(setLeague(target))
+        }}
+        className="menu-item"
+      />
     </Container>
   )
 }
