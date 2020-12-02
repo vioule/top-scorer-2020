@@ -2,9 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import { useSelector } from 'react-redux'
 import { AddPlayer, SubPlayer } from './Player/Buttons'
+import Leagues from './Leagues'
 
 const Container = styled.div`
-  position: absolute;
+  display: none;
+  opacity: 0;
+  position: fixed;
   top: 0;
   left: 0;
   width: 6.25%;
@@ -20,6 +23,7 @@ export default () => {
   return (
     <Container>
       <SubPlayer top={top} />
+      <Leagues />
       <AddPlayer top={top} />
     </Container>
   )

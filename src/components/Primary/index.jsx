@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import TopScorer from './TopScorer'
-import Menu from '../Menu'
+import League from './League'
 
 const Container = styled.div`
   position: fixed;
@@ -14,11 +14,18 @@ const Container = styled.div`
     ${({ theme }) => theme.colors.dark},
     ${({ theme }) => theme.colors.bl}
   );
+  @media ${({ theme }) => theme.medias.portrait} {
+    background: linear-gradient(
+      to right,
+      ${({ theme }) => theme.colors.dark},
+      ${({ theme }) => theme.colors.bl}
+    );
+  }
 `
 
 export default () => (
   <Container>
     <TopScorer />
-    <Menu />
+    <League />
   </Container>
 )
