@@ -1,18 +1,21 @@
 import React, { useEffect, useRef, useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import gsap from 'gsap'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import Primary from './Primary'
+import Player from './Player'
 import Menu from './Menu'
+import { setPlayerImage } from '../store/player/action'
 
 export default () => {
   const didMountRef = useRef(false)
   const ref = useRef(null)
   const themeContext = useContext(ThemeContext)
   const league = useSelector(({ menu }) => menu.league)
+  const dispatch = useDispatch()
   useEffect(() => {
-    const topScorer = ref.current.firstChild.firstChild
-    const logos = ref.current.firstChild.lastChild.children
+    const topScorer = ref.current.children[1].firstChild
+    const logos = ref.current.children[1].lastChild.children
     const menu = ref.current.lastChild
     const tl = gsap.timeline()
     tl.fromTo(
@@ -34,20 +37,20 @@ export default () => {
     )
     if (window.matchMedia('(orientation:landscape)').matches) {
       tl.to(
-        ref.current.firstChild,
+        ref.current.children[1],
         { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
         '+=0.5'
       )
-      tl.set(ref.current.firstChild, {
+      tl.set(ref.current.children[1], {
         background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
       })
     } else {
       tl.to(
-        ref.current.firstChild,
+        ref.current.children[1],
         { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
         '+=0.5'
       )
-      tl.set(ref.current.firstChild, {
+      tl.set(ref.current.children[1], {
         background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
       })
     }
@@ -57,23 +60,31 @@ export default () => {
 
   useEffect(() => {
     if (didMountRef.current) {
-      const topScorer = ref.current.firstChild.firstChild
-      const logos = ref.current.firstChild.lastChild.children
+      const topScorer = ref.current.children[1].firstChild
+      const logos = ref.current.children[1].lastChild.children
       const tl = gsap.timeline()
       tl.set('.menu-item', { display: 'none' })
       if (window.matchMedia('(orientation:landscape)').matches) {
-        tl.to(ref.current.firstChild, {
+        tl.to(ref.current.children[1], {
           width: '100%',
           duration: 0.5,
           ease: 'power2.inOut',
         })
       } else {
-        tl.to(ref.current.firstChild, {
+        tl.to(ref.current.children[1], {
           height: '100vh',
           duration: 0.5,
           ease: 'power2.inOut',
         })
       }
+      tl.addLabel('curtain')
+      tl.call(
+        () => {
+          dispatch(setPlayerImage(`${league}-1.png`))
+        },
+        null,
+        'curtain'
+      )
       tl.fromTo(
         topScorer,
         { opacity: 1 },
@@ -82,7 +93,7 @@ export default () => {
       )
       if (window.matchMedia('(orientation:landscape)').matches) {
         tl.to(
-          ref.current.firstChild,
+          ref.current.children[1],
           {
             background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
             duration: 0.5,
@@ -90,9 +101,12 @@ export default () => {
           },
           '-=0.5'
         )
+        tl.set(ref.current.firstChild, {
+          background: `linear-gradient(${themeContext.colors[league]}, ${themeContext.colors.dark})`,
+        })
       } else {
         tl.to(
-          ref.current.firstChild,
+          ref.current.children[1],
           {
             background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
             duration: 0.5,
@@ -100,6 +114,9 @@ export default () => {
           },
           '-=0.5'
         )
+        tl.set(ref.current.firstChild, {
+          background: `linear-gradient(to right, ${themeContext.colors[league]}, ${themeContext.colors.dark})`,
+        })
       }
       tl.fromTo(
         logos,
@@ -109,13 +126,13 @@ export default () => {
       )
       if (window.matchMedia('(orientation:landscape)').matches) {
         tl.to(
-          ref.current.firstChild,
+          ref.current.children[1],
           { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
           '+=0.5'
         )
       } else {
         tl.to(
-          ref.current.firstChild,
+          ref.current.children[1],
           { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
           '+=0.5'
         )
@@ -129,16 +146,22 @@ export default () => {
   useEffect(() => {
     const handleMatchMedia = e => {
       if (e.matches) {
-        gsap.set(ref.current.firstChild, {
+        gsap.set(ref.current.children[1], {
           width: '6.25%',
           height: '100%',
           background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
         })
-      } else {
         gsap.set(ref.current.firstChild, {
+          background: `linear-gradient(${themeContext.colors[league]}, ${themeContext.colors.dark})`,
+        })
+      } else {
+        gsap.set(ref.current.children[1], {
           width: '100%',
           height: '6.25vh',
           background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
+        })
+        gsap.set(ref.current.firstChild, {
+          background: `linear-gradient(to right, ${themeContext.colors[league]}, ${themeContext.colors.dark})`,
         })
       }
     }
@@ -150,6 +173,7 @@ export default () => {
   }, [league])
   return (
     <div ref={ref}>
+      <Player />
       <Primary />
       <Menu />
     </div>
