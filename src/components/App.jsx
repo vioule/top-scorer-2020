@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Primary from './Primary'
 import Player from './Player'
 import Menu from './Menu'
+import Top from './Top'
 import { setPlayerImage } from '../store/player/action'
 
 export default () => {
@@ -14,8 +15,8 @@ export default () => {
   const league = useSelector(({ menu }) => menu.league)
   const dispatch = useDispatch()
   useEffect(() => {
-    const topScorer = ref.current.children[1].firstChild
-    const logos = ref.current.children[1].lastChild.children
+    const topScorer = ref.current.children[2].firstChild
+    const logos = ref.current.children[2].lastChild.children
     const menu = ref.current.lastChild
     const tl = gsap.timeline()
     tl.fromTo(
@@ -37,20 +38,20 @@ export default () => {
     )
     if (window.matchMedia('(orientation:landscape)').matches) {
       tl.to(
-        ref.current.children[1],
+        ref.current.children[2],
         { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
         '+=0.5'
       )
-      tl.set(ref.current.children[1], {
+      tl.set(ref.current.children[2], {
         background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
       })
     } else {
       tl.to(
-        ref.current.children[1],
+        ref.current.children[2],
         { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
         '+=0.5'
       )
-      tl.set(ref.current.children[1], {
+      tl.set(ref.current.children[2], {
         background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
       })
     }
@@ -60,18 +61,18 @@ export default () => {
 
   useEffect(() => {
     if (didMountRef.current) {
-      const topScorer = ref.current.children[1].firstChild
-      const logos = ref.current.children[1].lastChild.children
+      const topScorer = ref.current.children[2].firstChild
+      const logos = ref.current.children[2].lastChild.children
       const tl = gsap.timeline()
       tl.set('.menu-item', { display: 'none' })
       if (window.matchMedia('(orientation:landscape)').matches) {
-        tl.to(ref.current.children[1], {
+        tl.to(ref.current.children[2], {
           width: '100%',
           duration: 0.5,
           ease: 'power2.inOut',
         })
       } else {
-        tl.to(ref.current.children[1], {
+        tl.to(ref.current.children[2], {
           height: '100vh',
           duration: 0.5,
           ease: 'power2.inOut',
@@ -93,7 +94,7 @@ export default () => {
       )
       if (window.matchMedia('(orientation:landscape)').matches) {
         tl.to(
-          ref.current.children[1],
+          ref.current.children[2],
           {
             background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
             duration: 0.5,
@@ -106,7 +107,7 @@ export default () => {
         })
       } else {
         tl.to(
-          ref.current.children[1],
+          ref.current.children[2],
           {
             background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
             duration: 0.5,
@@ -126,13 +127,13 @@ export default () => {
       )
       if (window.matchMedia('(orientation:landscape)').matches) {
         tl.to(
-          ref.current.children[1],
+          ref.current.children[2],
           { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
           '+=0.5'
         )
       } else {
         tl.to(
-          ref.current.children[1],
+          ref.current.children[2],
           { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
           '+=0.5'
         )
@@ -146,7 +147,7 @@ export default () => {
   useEffect(() => {
     const handleMatchMedia = e => {
       if (e.matches) {
-        gsap.set(ref.current.children[1], {
+        gsap.set(ref.current.children[2], {
           width: '6.25%',
           height: '100%',
           background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -155,7 +156,7 @@ export default () => {
           background: `linear-gradient(${themeContext.colors[league]}, ${themeContext.colors.dark})`,
         })
       } else {
-        gsap.set(ref.current.children[1], {
+        gsap.set(ref.current.children[2], {
           width: '100%',
           height: '6.25vh',
           background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -174,6 +175,7 @@ export default () => {
   return (
     <div ref={ref}>
       <Player />
+      <Top />
       <Primary />
       <Menu />
     </div>
