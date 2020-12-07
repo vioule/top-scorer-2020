@@ -24,11 +24,9 @@ const Wrapper = styled.div`
 const StyledName = styled(Name)`
   font-size: 5.3vw;
   color: ${({ theme }) => theme.colors.dark};
+  padding-left: 2rem;
   @media ${({ theme }) => theme.medias.portrait} {
     font-size: 5.3vh;
-  }
-  & + span {
-    margin-left: 2rem;
   }
 `
 
