@@ -1,0 +1,27 @@
+{
+  "bl": [
+    { "name": "robert lewandowski" },
+    { "name": "timo werner" },
+    { "name": "jadon sancho" }
+  ],
+  "pl": [
+    { "name": "jamie vardy" },
+    { "name": "pierre-emerick aubameyang" },
+    { "name": "danny ings" }
+  ],
+  "l1": [
+    { "name": "kylian mbappe" },
+    { "name": "wissam ben yedder" },
+    { "name": "moussa dembele" }
+  ],
+  "ll": [
+    { "name": "lionel messi" },
+    { "name": "karim benzema" },
+    { "name": "gerard moreno" }
+  ],
+  "sa": [
+    { "name": "ciro immobile" },
+    { "name": "cristiano ronaldo" },
+    { "name": "romelu lukaku" }
+  ]
+}

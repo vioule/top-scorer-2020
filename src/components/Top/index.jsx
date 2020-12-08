@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useSelector } from 'react-redux'
 import { Number } from '../Texts'
 import Marquee from './Marquee'
 
@@ -77,6 +78,7 @@ const MarqueeContainer = styled.div`
 `
 
 export default () => {
+  const top = useSelector(({ menu }) => menu.top)
   return (
     <Wrapper>
       <MarqueeContainer>
@@ -84,7 +86,7 @@ export default () => {
       </MarqueeContainer>
       <Container>
         <Background>
-          <StyledNumber>2</StyledNumber>
+          <StyledNumber>{top}</StyledNumber>
         </Background>
       </Container>
     </Wrapper>

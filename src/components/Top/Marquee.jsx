@@ -66,7 +66,7 @@ export default () => {
       }
       return array
     })
-  }, [iteration])
+  }, [iteration, name])
 
   useEffect(() => {
     gsap.fromTo(
@@ -83,13 +83,10 @@ export default () => {
   }, [duration])
 
   useEffect(() => {
+    handleIteration()
     handleDuration()
   }, [children])
 
-  useEffect(() => {
-    handleIteration()
-    handleDuration()
-  }, [name])
   return (
     <Container ref={ref}>
       <Wrapper>{children}</Wrapper>

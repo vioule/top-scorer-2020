@@ -13,6 +13,25 @@ export const DataContext = React.createContext(null)
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query HomePageQuery {
+      allDataJson {
+        nodes {
+          bl {
+            name
+          }
+          pl {
+            name
+          }
+          l1 {
+            name
+          }
+          ll {
+            name
+          }
+          sa {
+            name
+          }
+        }
+      }
       allFile(filter: { sourceInstanceName: { eq: "images" } }) {
         nodes {
           childImageSharp {
@@ -27,7 +46,10 @@ const Layout = ({ children }) => {
   `)
   return (
     <DataContext.Provider
-      value={data.allFile.nodes.map(x => x.childImageSharp.fluid)}
+      value={{
+        images: data.allFile.nodes.map(x => x.childImageSharp.fluid),
+        stats: data.allDataJson.nodes[0],
+      }}
     >
       <Provider store={store}>
         <ThemeProvider theme={theme}>

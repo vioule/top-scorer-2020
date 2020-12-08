@@ -15,10 +15,10 @@ const Container = styled.div`
 
 export default () => {
   const image = useSelector(({ player }) => player.image)
-  const data = useContext(DataContext)
+  const { images } = useContext(DataContext)
   const [fluid, setFluid] = useState(null)
   useEffect(() => {
-    const img = data.find(x => x.originalName === image)
+    const img = images.find(x => x.originalName === image)
     setFluid(img)
   }, [image])
   return (
