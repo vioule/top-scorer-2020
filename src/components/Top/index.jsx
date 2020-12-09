@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useSelector } from 'react-redux'
-import { Number } from '../Texts'
+import Number from './Number'
 import Marquee from './Marquee'
 
 const Wrapper = styled.div`
@@ -33,32 +32,6 @@ const Container = styled.div`
   }
 `
 
-const Background = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 11.11%;
-  height: 15%;
-  background-color: ${({ theme }) => theme.colors.light};
-  @media ${({ theme }) => theme.medias.portrait} {
-    top: unset;
-    bottom: 0;
-    left: 0;
-    width: 15%;
-    height: 11.11%;
-  }
-`
-
-const StyledNumber = styled(Number)`
-  position: relative;
-  font-size: 8vw;
-  top: -5%;
-  color: ${({ theme }) => theme.colors.bl};
-  @media ${({ theme }) => theme.medias.portrait} {
-    font-size: 6.5vh;
-  }
-`
-
 const MarqueeContainer = styled.div`
   position: absolute;
   top: 0;
@@ -78,16 +51,13 @@ const MarqueeContainer = styled.div`
 `
 
 export default () => {
-  const top = useSelector(({ menu }) => menu.top)
   return (
     <Wrapper>
       <MarqueeContainer>
         <Marquee />
       </MarqueeContainer>
       <Container>
-        <Background>
-          <StyledNumber>{top}</StyledNumber>
-        </Background>
+        <Number />
       </Container>
     </Wrapper>
   )

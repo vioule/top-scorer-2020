@@ -21,8 +21,8 @@ export default () => {
   const top = useSelector(({ menu }) => menu.top)
   return (
     <Container>
-      <SubPlayer top={top} />
       <Leagues />
+      <SubPlayer top={top} />
       <AddPlayer top={top} />
     </Container>
   )
