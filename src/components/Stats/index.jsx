@@ -23,12 +23,28 @@ const Content = styled.div`
   width: 100%;
 `
 
+const Curtain = styled.div`
+  position: absolute;
+  top: 0;
+  left: -16.667%;
+  width: 116.667%;
+  height: 100%;
+  background-color: ${({ theme }) => theme.colors.light};
+  @media ${({ theme }) => theme.medias.portrait} {
+    top: -16.667%;
+    left: 0;
+    width: 100%;
+    height: 116.667%;
+  }
+`
+
 export default () => {
   return (
     <Container>
       <Content>
         <Nav />
       </Content>
+      <Curtain />
     </Container>
   )
 }

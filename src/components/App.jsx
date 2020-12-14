@@ -80,10 +80,13 @@ export default () => {
         gsap.set(ref.current.firstChild, {
           background: `linear-gradient(${themeContext.colors[league]}, ${themeContext.colors.dark})`,
         })
-        gsap.set(ref.current.firstChild.lastChild, {
-          height: '100%',
-          width: 0,
-        })
+        gsap.set(
+          [ref.current.firstChild.lastChild, ref.current.children[2].lastChild],
+          {
+            height: '100%',
+            width: 0,
+          }
+        )
         gsap.set(ref.current.children[1].lastChild.firstChild, {
           height: '15%',
           width: '11.11%',
@@ -97,10 +100,13 @@ export default () => {
         gsap.set(ref.current.firstChild, {
           background: `linear-gradient(to right, ${themeContext.colors[league]}, ${themeContext.colors.dark})`,
         })
-        gsap.set(ref.current.firstChild.lastChild, {
-          width: '100%',
-          height: 0,
-        })
+        gsap.set(
+          [ref.current.firstChild.lastChild, ref.current.children[2].lastChild],
+          {
+            width: '100%',
+            height: 0,
+          }
+        )
         gsap.set(ref.current.children[1].lastChild.firstChild, {
           height: '11.11%',
           width: '15%',

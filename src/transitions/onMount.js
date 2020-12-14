@@ -31,11 +31,20 @@ export default (ref, themeContext, league) => {
     tl.set(ref.children[3], {
       background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
     })
-    tl.to(ref.firstChild.lastChild, {
+    tl.to(ref.children[2].lastChild, {
       width: 0,
       duration: 0.5,
-      ease: 'power2.in',
+      ease: 'power2.out',
     })
+    tl.to(
+      ref.firstChild.lastChild,
+      {
+        width: 0,
+        duration: 0.5,
+        ease: 'power2.out',
+      },
+      '-=0.15'
+    )
   } else {
     tl.to(
       ref.children[3],
@@ -45,11 +54,20 @@ export default (ref, themeContext, league) => {
     tl.set(ref.children[3], {
       background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
     })
-    tl.to(ref.firstChild.lastChild, {
+    tl.to(ref.children[2].lastChild, {
       height: 0,
       duration: 0.5,
-      ease: 'power2.in',
+      ease: 'power2.out',
     })
+    tl.to(
+      ref.firstChild.lastChild,
+      {
+        height: 0,
+        duration: 0.5,
+        ease: 'power2.out',
+      },
+      '-=0.15'
+    )
   }
   tl.to(menu, { opacity: 1, duration: 0.5, ease: 'linear' }, '-=0.5')
   tl.set('.menu-item', { display: 'block' })

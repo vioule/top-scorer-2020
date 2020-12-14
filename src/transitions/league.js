@@ -20,8 +20,17 @@ export default (
     tl.to(ref.firstChild.lastChild, {
       width: '100%',
       duration: 0.5,
-      ease: 'power2.out',
+      ease: 'power2.in',
     })
+    tl.to(
+      ref.children[2].lastChild,
+      {
+        width: '116.667%',
+        duration: 0.5,
+        ease: 'power2.in',
+      },
+      '-=0.15'
+    )
     tl.to(ref.children[3], {
       width: '100%',
       duration: 0.5,
@@ -31,8 +40,17 @@ export default (
     tl.to(ref.firstChild.lastChild, {
       height: '100%',
       duration: 0.5,
-      ease: 'power2.out',
+      ease: 'power2.in',
     })
+    tl.to(
+      ref.children[2].lastChild,
+      {
+        height: '116.667%',
+        duration: 0.5,
+        ease: 'power2.in',
+      },
+      '-=0.15'
+    )
     tl.to(ref.children[3], {
       height: '100vh',
       duration: 0.5,
@@ -101,22 +119,40 @@ export default (
       { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
-    tl.to(ref.firstChild.lastChild, {
+    tl.to(ref.children[2].lastChild, {
       width: 0,
       duration: 0.5,
-      ease: 'power2.in',
+      ease: 'power2.out',
     })
+    tl.to(
+      ref.firstChild.lastChild,
+      {
+        width: 0,
+        duration: 0.5,
+        ease: 'power2.out',
+      },
+      '-=0.15'
+    )
   } else {
     tl.to(
       ref.children[3],
       { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
-    tl.to(ref.firstChild.lastChild, {
+    tl.to(ref.children[2].lastChild, {
       height: 0,
       duration: 0.5,
-      ease: 'power2.in',
+      ease: 'power2.out',
     })
+    tl.to(
+      ref.firstChild.lastChild,
+      {
+        height: 0,
+        duration: 0.5,
+        ease: 'power2.out',
+      },
+      '-=0.15'
+    )
   }
   tl.set('.menu-item', { display: 'block' })
 }
