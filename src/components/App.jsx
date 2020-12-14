@@ -6,6 +6,7 @@ import Primary from './Primary'
 import Player from './Player'
 import Menu from './Menu'
 import Top from './Top'
+import Stats from './Stats'
 import {
   setPlayerImage,
   setPlayerName,
@@ -69,7 +70,7 @@ export default () => {
   useEffect(() => {
     const handleMatchMedia = e => {
       if (e.matches) {
-        gsap.set(ref.current.children[2], {
+        gsap.set(ref.current.children[3], {
           width: '6.25%',
           height: '100%',
           background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -86,7 +87,7 @@ export default () => {
           width: '11.11%',
         })
       } else {
-        gsap.set(ref.current.children[2], {
+        gsap.set(ref.current.children[3], {
           width: '100%',
           height: '6.25vh',
           background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -114,6 +115,7 @@ export default () => {
     <div ref={ref}>
       <Player />
       <Top />
+      <Stats />
       <Primary />
       <Menu />
     </div>

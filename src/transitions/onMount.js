@@ -1,8 +1,8 @@
 import gsap from 'gsap'
 
 export default (ref, themeContext, league) => {
-  const topScorer = ref.children[2].firstChild
-  const logos = ref.children[2].lastChild.children
+  const topScorer = ref.children[3].firstChild
+  const logos = ref.children[3].lastChild.children
   const menu = ref.lastChild
   const tl = gsap.timeline()
   tl.fromTo(
@@ -24,11 +24,11 @@ export default (ref, themeContext, league) => {
   )
   if (window.matchMedia('(orientation:landscape)').matches) {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
-    tl.set(ref.children[2], {
+    tl.set(ref.children[3], {
       background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
     })
     tl.to(ref.firstChild.lastChild, {
@@ -38,11 +38,11 @@ export default (ref, themeContext, league) => {
     })
   } else {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
-    tl.set(ref.children[2], {
+    tl.set(ref.children[3], {
       background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
     })
     tl.to(ref.firstChild.lastChild, {

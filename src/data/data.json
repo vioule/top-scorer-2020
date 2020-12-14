@@ -1,6 +1,37 @@
 {
   "bl": [
-    { "name": "robert lewandowski" },
+    {
+      "name": "robert lewandowski",
+      "stats": {
+        "infos": {
+          "from": "germany",
+          "born": "12/07/1986",
+          "height": "1m83",
+          "weight": "74kg",
+          "preference": "right",
+          "matchs": "35",
+          "titularisation": "34"
+        },
+        "goals": {
+          "total": "23",
+          "head": "3",
+          "right": "11",
+          "left": "9",
+          "other": "0",
+          "min": "3034",
+          "min/goal": "131.9"
+        },
+        "shots": {
+          "total": "89",
+          "on target": "43",
+          "off target": "28",
+          "on post": "4",
+          "blocked": "18",
+          "% on target": "48",
+          "% conversion": "25.8"
+        }
+      }
+    },
     { "name": "timo werner" },
     { "name": "jadon sancho" }
   ],

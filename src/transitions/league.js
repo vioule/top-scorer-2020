@@ -11,8 +11,8 @@ export default (
   setPlayerImage,
   setPlayerName
 ) => {
-  const topScorer = ref.children[2].firstChild
-  const logos = ref.children[2].lastChild.children
+  const topScorer = ref.children[3].firstChild
+  const logos = ref.children[3].lastChild.children
   const tl = gsap.timeline()
   tl.set('.menu-item', { display: 'none' })
   if (window.matchMedia('(orientation:landscape)').matches) {
@@ -21,7 +21,7 @@ export default (
       duration: 0.5,
       ease: 'power2.out',
     })
-    tl.to(ref.children[2], {
+    tl.to(ref.children[3], {
       width: '100%',
       duration: 0.5,
       ease: 'power2.inOut',
@@ -32,7 +32,7 @@ export default (
       duration: 0.5,
       ease: 'power2.out',
     })
-    tl.to(ref.children[2], {
+    tl.to(ref.children[3], {
       height: '100vh',
       duration: 0.5,
       ease: 'power2.inOut',
@@ -62,7 +62,7 @@ export default (
   )
   if (window.matchMedia('(orientation:landscape)').matches) {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       {
         background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
         duration: 0.5,
@@ -75,7 +75,7 @@ export default (
     })
   } else {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       {
         background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
         duration: 0.5,
@@ -95,7 +95,7 @@ export default (
   )
   if (window.matchMedia('(orientation:landscape)').matches) {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       { width: '6.25%', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
@@ -106,7 +106,7 @@ export default (
     })
   } else {
     tl.to(
-      ref.children[2],
+      ref.children[3],
       { height: '6.25vh', duration: 0.5, ease: 'power2.inOut' },
       '+=0.5'
     )
