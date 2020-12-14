@@ -19,6 +19,7 @@ import {
   topTransition,
 } from '../transitions'
 import { setTop } from '../store/menu/action'
+import { setStatsLeague } from '../store/stats/action'
 
 export default () => {
   const preventLeagueTransitionOnMount = useRef(false)
@@ -43,7 +44,8 @@ export default () => {
         dispatch,
         setTop,
         setPlayerImage,
-        setPlayerName
+        setPlayerName,
+        setStatsLeague
       )
     } else {
       preventLeagueTransitionOnMount.current = true

@@ -9,7 +9,8 @@ export default (
   dispatch,
   setTop,
   setPlayerImage,
-  setPlayerName
+  setPlayerName,
+  setStatsLeague
 ) => {
   const topScorer = ref.children[3].firstChild
   const logos = ref.children[3].lastChild.children
@@ -50,6 +51,7 @@ export default (
         dispatch(setPlayerImage(`${league}-1.png`))
         dispatch(setPlayerName(stats[league][0].name))
       }
+      dispatch(setStatsLeague(league))
     },
     null,
     'curtain'
