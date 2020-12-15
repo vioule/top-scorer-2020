@@ -113,7 +113,12 @@ export default () => {
           {Object.entries(stats[league][top - 1].stats[menu]).map(x => (
             <Element key={x}>
               <Mask>
-                <Description className="description">{x[0]}</Description>
+                <Description className="description">
+                  {x[0]
+                    .replaceAll('_', ' ')
+                    .replaceAll('percent', '%')
+                    .replace('per', '/')}
+                </Description>
               </Mask>
               <Mask>
                 <Content className="content">{x[1]}</Content>

@@ -71,9 +71,9 @@ export default () => {
   useEffect(() => {
     gsap.fromTo(
       ref.current.firstChild,
-      { xPercent: 0 },
+      { xPercent: -50 },
       {
-        xPercent: -50,
+        xPercent: 0,
         duration,
         ease: 'linear',
         repeat: -1,

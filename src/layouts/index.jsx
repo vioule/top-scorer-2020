@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
                 weight
                 preference
                 matchs
-                titularisation
+                titularisations
               }
               goals {
                 total
@@ -33,17 +33,17 @@ const Layout = ({ children }) => {
                 right
                 left
                 other
-                min
-                mingoal
+                mins
+                minspergoal
               }
               shots {
                 total
-                ontarget
-                offtarget
-                onpost
+                on_target
+                off_target
+                on_post
                 blocked
-                pontarget
-                conversion
+                percent_on_target
+                percent_conversion
               }
             }
             percent {
@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
                 weight
                 preference
                 matchs
-                titularisation
+                titularisations
               }
               goals {
                 total
@@ -70,17 +70,17 @@ const Layout = ({ children }) => {
                 right
                 left
                 other
-                min
-                mingoal
+                mins
+                minspergoal
               }
               shots {
                 total
-                ontarget
-                offtarget
-                onpost
+                on_target
+                off_target
+                on_post
                 blocked
-                pontarget
-                conversion
+                percent_on_target
+                percent_conversion
               }
             }
             percent {
@@ -99,7 +99,7 @@ const Layout = ({ children }) => {
                 weight
                 preference
                 matchs
-                titularisation
+                titularisations
               }
               goals {
                 total
@@ -107,17 +107,17 @@ const Layout = ({ children }) => {
                 right
                 left
                 other
-                min
-                mingoal
+                mins
+                minspergoal
               }
               shots {
                 total
-                ontarget
-                offtarget
-                onpost
+                on_target
+                off_target
+                on_post
                 blocked
-                pontarget
-                conversion
+                percent_on_target
+                percent_conversion
               }
             }
             percent {
@@ -136,7 +136,7 @@ const Layout = ({ children }) => {
                 weight
                 preference
                 matchs
-                titularisation
+                titularisations
               }
               goals {
                 total
@@ -144,17 +144,17 @@ const Layout = ({ children }) => {
                 right
                 left
                 other
-                min
-                mingoal
+                mins
+                minspergoal
               }
               shots {
                 total
-                ontarget
-                offtarget
-                onpost
+                on_target
+                off_target
+                on_post
                 blocked
-                pontarget
-                conversion
+                percent_on_target
+                percent_conversion
               }
             }
             percent {
@@ -173,7 +173,7 @@ const Layout = ({ children }) => {
                 weight
                 preference
                 matchs
-                titularisation
+                titularisations
               }
               goals {
                 total
@@ -181,17 +181,17 @@ const Layout = ({ children }) => {
                 right
                 left
                 other
-                min
-                mingoal
+                mins
+                minspergoal
               }
               shots {
                 total
-                ontarget
-                offtarget
-                onpost
+                on_target
+                off_target
+                on_post
                 blocked
-                pontarget
-                conversion
+                percent_on_target
+                percent_conversion
               }
             }
             percent {

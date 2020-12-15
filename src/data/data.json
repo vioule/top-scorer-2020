@@ -10,7 +10,7 @@
           "weight": "80kg",
           "preference": "Right",
           "matchs": "31",
-          "titularisation": "31"
+          "titularisations": "31"
         },
         "goals": {
           "total": "34",
@@ -18,17 +18,17 @@
           "right": "23",
           "left": "3",
           "other": "0",
-          "min": "2762",
-          "mingoal": "81.2"
+          "mins": "2762",
+          "minspergoal": "81.2"
         },
         "shots": {
           "total": "138",
-          "ontarget": "69",
-          "offtarget": "45",
-          "onpost": "1",
+          "on target": "69",
+          "off target": "45",
+          "on post": "1",
           "blocked": "24",
-          "pontarget": "50",
-          "conversion": "24.6"
+          "percent on target": "50",
+          "percent conversion": "24.6"
         }
       },
       "percent": {
@@ -47,7 +47,7 @@
           "weight": "76kg",
           "preference": "Right",
           "matchs": "34",
-          "titularisation": "33"
+          "titularisations": "33"
         },
         "goals": {
           "total": "28",
@@ -55,17 +55,17 @@
           "right": "23",
           "left": "5",
           "other": "0",
-          "min": "2809",
-          "mingoal": "100.3"
+          "mins": "2809",
+          "minspergoal": "100.3"
         },
         "shots": {
           "total": "123",
-          "ontarget": "64",
-          "offtarget": "36",
-          "onpost": "1",
+          "on target": "64",
+          "off target": "36",
+          "on post": "1",
           "blocked": "23",
-          "pontarget": "52",
-          "conversion": "22.7"
+          "percent on target": "52",
+          "percent conversion": "22.7"
         }
       },
       "percent": {
@@ -84,7 +84,7 @@
           "weight": "76kg",
           "preference": "Right",
           "matchs": "32",
-          "titularisation": "25"
+          "titularisations": "25"
         },
         "goals": {
           "total": "17",
@@ -92,17 +92,17 @@
           "right": "13",
           "left": "4",
           "other": "0",
-          "min": "2292",
-          "mingoal": "134.8"
+          "mins": "2292",
+          "minspergoal": "134.8"
         },
         "shots": {
           "total": "52",
-          "ontarget": "28",
-          "offtarget": "16",
-          "onpost": "1",
+          "on target": "28",
+          "off target": "16",
+          "on post": "1",
           "blocked": "8",
-          "pontarget": "53.85",
-          "conversion": "32.7"
+          "percent on target": "53.85",
+          "percent conversion": "32.7"
         }
       },
       "percent": {
@@ -123,7 +123,7 @@
           "weight": "74kg",
           "preference": "Right",
           "matchs": "35",
-          "titularisation": "34"
+          "titularisations": "34"
         },
         "goals": {
           "total": "23",
@@ -131,17 +131,17 @@
           "right": "11",
           "left": "9",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "mins": "3034",
+          "minspergoal": "131.9"
         },
         "shots": {
           "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
+          "on target": "43",
+          "off target": "28",
+          "on post": "4",
           "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "percent on target": "48",
+          "percent conversion": "25.8"
         }
       },
       "percent": {
@@ -160,7 +160,7 @@
           "weight": "80kg",
           "preference": "Right",
           "matchs": "36",
-          "titularisation": "35"
+          "titularisations": "35"
         },
         "goals": {
           "total": "22",
@@ -168,17 +168,17 @@
           "right": "16",
           "left": "3",
           "other": "0",
-          "min": "3139",
-          "mingoal": "142.7"
+          "mins": "3139",
+          "minspergoal": "142.7"
         },
         "shots": {
           "total": "93",
-          "ontarget": "42",
-          "offtarget": "28",
-          "onpost": "3",
+          "on target": "42",
+          "off target": "28",
+          "on post": "3",
           "blocked": "23",
-          "pontarget": "45.2",
-          "conversion": "23.7"
+          "percent on target": "45.2",
+          "percent conversion": "23.7"
         }
       },
       "percent": {
@@ -197,7 +197,7 @@
           "weight": "73kg",
           "preference": "Right",
           "matchs": "38",
-          "titularisation": "32"
+          "titularisations": "32"
         },
         "goals": {
           "total": "22",
@@ -205,17 +205,17 @@
           "right": "13",
           "left": "8",
           "other": "1",
-          "min": "2815",
-          "mingoal": "127.9"
+          "mins": "2815",
+          "minspergoal": "127.9"
         },
         "shots": {
           "total": "93",
-          "ontarget": "38",
-          "offtarget": "28",
-          "onpost": "5",
+          "on target": "38",
+          "off target": "28",
+          "on post": "5",
           "blocked": "27",
-          "pontarget": "40.9",
-          "conversion": "23.7"
+          "percent on target": "40.9",
+          "percent conversion": "23.7"
         }
       },
       "percent": {
@@ -236,7 +236,7 @@
           "weight": "73kg",
           "preference": "Right",
           "matchs": "20",
-          "titularisation": "17"
+          "titularisations": "17"
         },
         "goals": {
           "total": "18",
@@ -244,17 +244,17 @@
           "right": "14",
           "left": "4",
           "other": "0",
-          "min": "1516",
-          "mingoal": "84.2"
+          "mins": "1516",
+          "minspergoal": "84.2"
         },
         "shots": {
           "total": "87",
-          "ontarget": "49",
-          "offtarget": "30",
-          "onpost": "2",
+          "on target": "49",
+          "off target": "30",
+          "on post": "2",
           "blocked": "8",
-          "pontarget": "56.3",
-          "conversion": "20.7"
+          "percent on target": "56.3",
+          "percent conversion": "20.7"
         }
       },
       "percent": {
@@ -273,7 +273,7 @@
           "weight": "68kg",
           "preference": "Right",
           "matchs": "26",
-          "titularisation": "25"
+          "titularisations": "25"
         },
         "goals": {
           "total": "18",
@@ -281,17 +281,17 @@
           "right": "12",
           "left": "6",
           "other": "0",
-          "min": "2173",
-          "mingoal": "120.7"
+          "mins": "2173",
+          "minspergoal": "120.7"
         },
         "shots": {
           "total": "64",
-          "ontarget": "37",
-          "offtarget": "14",
-          "onpost": "0",
+          "on target": "37",
+          "off target": "14",
+          "on post": "0",
           "blocked": "13",
-          "pontarget": "57.8",
-          "conversion": "28.1"
+          "percent on target": "57.8",
+          "percent conversion": "28.1"
         }
       },
       "percent": {
@@ -310,7 +310,7 @@
           "weight": "74kg",
           "preference": "Right",
           "matchs": "27",
-          "titularisation": "24"
+          "titularisations": "24"
         },
         "goals": {
           "total": "16",
@@ -318,17 +318,17 @@
           "right": "12",
           "left": "1",
           "other": "1",
-          "min": "2189",
-          "mingoal": "136.8"
+          "mins": "2189",
+          "minspergoal": "136.8"
         },
         "shots": {
           "total": "56",
-          "ontarget": "26",
-          "offtarget": "24",
-          "onpost": "1",
+          "on target": "26",
+          "off target": "24",
+          "on post": "1",
           "blocked": "6",
-          "pontarget": "46.4",
-          "conversion": "28.6"
+          "percent on target": "46.4",
+          "percent conversion": "28.6"
         }
       },
       "percent": {
@@ -349,7 +349,7 @@
           "weight": "72kg",
           "preference": "Left",
           "matchs": "33",
-          "titularisation": "32"
+          "titularisations": "32"
         },
         "goals": {
           "total": "25",
@@ -357,17 +357,17 @@
           "right": "2",
           "left": "23",
           "other": "0",
-          "min": "2881",
-          "mingoal": "115.2"
+          "mins": "2881",
+          "minspergoal": "115.2"
         },
         "shots": {
           "total": "159",
-          "ontarget": "71",
-          "offtarget": "44",
-          "onpost": "4",
+          "on target": "71",
+          "off target": "44",
+          "on post": "4",
           "blocked": "44",
-          "pontarget": "44.6",
-          "conversion": "15.7"
+          "percent on target": "44.6",
+          "percent conversion": "15.7"
         }
       },
       "percent": {
@@ -386,7 +386,7 @@
           "weight": "81kg",
           "preference": "Right",
           "matchs": "37",
-          "titularisation": "36"
+          "titularisations": "36"
         },
         "goals": {
           "total": "21",
@@ -394,17 +394,17 @@
           "right": "14",
           "left": "4",
           "other": "1",
-          "min": "3155",
-          "mingoal": "150.2"
+          "mins": "3155",
+          "minspergoal": "150.2"
         },
         "shots": {
           "total": "124",
-          "ontarget": "60",
-          "offtarget": "47",
-          "onpost": "5",
+          "on target": "60",
+          "off target": "47",
+          "on post": "5",
           "blocked": "17",
-          "pontarget": "48.4",
-          "conversion": "16.9"
+          "percent on target": "48.4",
+          "percent conversion": "16.9"
         }
       },
       "percent": {
@@ -423,7 +423,7 @@
           "weight": "75kg",
           "preference": "Left",
           "matchs": "35",
-          "titularisation": "33"
+          "titularisations": "33"
         },
         "goals": {
           "total": "18",
@@ -431,17 +431,17 @@
           "right": "4",
           "left": "13",
           "other": "0",
-          "min": "2755",
-          "mingoal": "153"
+          "mins": "2755",
+          "minspergoal": "153"
         },
         "shots": {
           "total": "89",
-          "ontarget": "35",
-          "offtarget": "36",
-          "onpost": "3",
+          "on target": "35",
+          "off target": "36",
+          "on post": "3",
           "blocked": "18",
-          "pontarget": "39.3",
-          "conversion": "20.2"
+          "percent on target": "39.3",
+          "percent conversion": "20.2"
         }
       },
       "percent": {
@@ -462,7 +462,7 @@
           "weight": "85kg",
           "preference": "Right",
           "matchs": "37",
-          "titularisation": "36"
+          "titularisations": "36"
         },
         "goals": {
           "total": "36",
@@ -470,17 +470,17 @@
           "right": "28",
           "left": "6",
           "other": "0",
-          "min": "3176",
-          "mingoal": "88.2"
+          "mins": "3176",
+          "minspergoal": "88.2"
         },
         "shots": {
           "total": "142",
-          "ontarget": "71",
-          "offtarget": "48",
-          "onpost": "6",
+          "on target": "71",
+          "off target": "48",
+          "on post": "6",
           "blocked": "23",
-          "pontarget": "50",
-          "conversion": "25.3"
+          "percent on target": "50",
+          "percent conversion": "25.3"
         }
       },
       "percent": {
@@ -499,7 +499,7 @@
           "weight": "84kg",
           "preference": "Right",
           "matchs": "33",
-          "titularisation": "33"
+          "titularisations": "33"
         },
         "goals": {
           "total": "31",
@@ -507,17 +507,17 @@
           "right": "24",
           "left": "5",
           "other": "0",
-          "min": "2919",
-          "mingoal": "94.2"
+          "mins": "2919",
+          "minspergoal": "94.2"
         },
         "shots": {
           "total": "208",
-          "ontarget": "80",
-          "offtarget": "62",
-          "onpost": "6",
+          "on target": "80",
+          "off target": "62",
+          "on post": "6",
           "blocked": "66",
-          "pontarget": "38.5",
-          "conversion": "14.9"
+          "percent on target": "38.5",
+          "percent conversion": "14.9"
         }
       },
       "percent": {
@@ -536,7 +536,7 @@
           "weight": "93kg",
           "preference": "Left",
           "matchs": "36",
-          "titularisation": "33"
+          "titularisations": "33"
         },
         "goals": {
           "total": "23",
@@ -544,17 +544,17 @@
           "right": "4",
           "left": "15",
           "other": "0",
-          "min": "2984",
-          "mingoal": "129.7"
+          "mins": "2984",
+          "minspergoal": "129.7"
         },
         "shots": {
           "total": "99",
-          "ontarget": "47",
-          "offtarget": "28",
-          "onpost": "1",
+          "on target": "47",
+          "off target": "28",
+          "on post": "1",
           "blocked": "24",
-          "pontarget": "47.5",
-          "conversion": "23.2"
+          "percent on target": "47.5",
+          "percent conversion": "23.2"
         }
       },
       "percent": {
