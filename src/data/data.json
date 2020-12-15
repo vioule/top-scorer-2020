@@ -4,111 +4,111 @@
       "name": "robert lewandowski",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Poland",
+          "born": "21/08/1988",
+          "height": "1m84",
+          "weight": "80kg",
+          "preference": "Right",
+          "matchs": "31",
+          "titularisation": "31"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "34",
+          "head": "8",
+          "right": "23",
+          "left": "3",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2762",
+          "mingoal": "81.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "138",
+          "ontarget": "69",
+          "offtarget": "45",
+          "onpost": "1",
+          "blocked": "24",
+          "pontarget": "50",
+          "conversion": "24.6"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 23.53, 67.65, 8.82, 0, 0, 0],
+        "shots": [0, 50, 32.6, 0.73, 17.39, 50, 24.6]
       }
     },
     {
       "name": "timo werner",
       "stats": {
         "infos": {
-          "from": "tokio",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Germany",
+          "born": "06/03/1996",
+          "height": "1m80",
+          "weight": "76kg",
+          "preference": "Right",
+          "matchs": "34",
+          "titularisation": "33"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "28",
+          "head": "0",
+          "right": "23",
+          "left": "5",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2809",
+          "mingoal": "100.3"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "123",
+          "ontarget": "64",
+          "offtarget": "36",
+          "onpost": "1",
+          "blocked": "23",
+          "pontarget": "52",
+          "conversion": "22.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 80, 50, 40, 75, 90, 100]
+        "goals": [0, 0, 82.14, 17.86, 0, 0, 0],
+        "shots": [0, 52, 29.27, 0.81, 18.7, 52, 22.7]
       }
     },
     {
       "name": "jadon sancho",
       "stats": {
         "infos": {
-          "from": "titi",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "United Kingdom",
+          "born": "25/03/2000",
+          "height": "1m80",
+          "weight": "76kg",
+          "preference": "Right",
+          "matchs": "32",
+          "titularisation": "25"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "17",
+          "head": "0",
+          "right": "13",
+          "left": "4",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2292",
+          "mingoal": "134.8"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "52",
+          "ontarget": "28",
+          "offtarget": "16",
+          "onpost": "1",
+          "blocked": "8",
+          "pontarget": "53.85",
+          "conversion": "32.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 0, 76.47, 23.53, 0, 0, 0],
+        "shots": [0, 53.85, 30.77, 1.92, 15.38, 53.85, 32.7]
       }
     }
   ],
@@ -117,11 +117,11 @@
       "name": "jamie vardy",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
+          "from": "United Kingdom",
+          "born": "11/01/1987",
+          "height": "1m79",
           "weight": "74kg",
-          "preference": "right",
+          "preference": "Right",
           "matchs": "35",
           "titularisation": "34"
         },
@@ -146,82 +146,82 @@
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 13, 47.83, 39.13, 0, 0, 0],
+        "shots": [0, 48.31, 31.46, 4.49, 20.22, 48, 25.8]
       }
     },
     {
       "name": "pierre-emerick aubameyang",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "France",
+          "born": "18/06/1989",
+          "height": "1m87",
+          "weight": "80kg",
+          "preference": "Right",
+          "matchs": "36",
+          "titularisation": "35"
         },
         "goals": {
-          "total": "23",
+          "total": "22",
           "head": "3",
-          "right": "11",
-          "left": "9",
+          "right": "16",
+          "left": "3",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "3139",
+          "mingoal": "142.7"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
+          "total": "93",
+          "ontarget": "42",
           "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "onpost": "3",
+          "blocked": "23",
+          "pontarget": "45.2",
+          "conversion": "23.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 13.63, 72.72, 13.63, 0, 0, 0],
+        "shots": [0, 45.16, 30.1, 3.22, 24.73, 45.2, 23.7]
       }
     },
     {
       "name": "danny ings",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "United Kingdom",
+          "born": "23/07/1992",
+          "height": "1m78",
+          "weight": "73kg",
+          "preference": "Right",
+          "matchs": "38",
+          "titularisation": "32"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
-          "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "total": "22",
+          "head": "0",
+          "right": "13",
+          "left": "8",
+          "other": "1",
+          "min": "2815",
+          "mingoal": "127.9"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
+          "total": "93",
+          "ontarget": "38",
           "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "onpost": "5",
+          "blocked": "27",
+          "pontarget": "40.9",
+          "conversion": "23.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 0, 59.1, 36.36, 4.54, 0, 0],
+        "shots": [0, 40.86, 30.1, 5.38, 29.03, 40.9, 23.7]
       }
     }
   ],
@@ -230,111 +230,111 @@
       "name": "kylian mbappe",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "France",
+          "born": "20/12/1998",
+          "height": "1m78",
+          "weight": "73kg",
+          "preference": "Right",
+          "matchs": "20",
+          "titularisation": "17"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "18",
+          "head": "0",
+          "right": "14",
+          "left": "4",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "1516",
+          "mingoal": "84.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "87",
+          "ontarget": "49",
+          "offtarget": "30",
+          "onpost": "2",
+          "blocked": "8",
+          "pontarget": "56.3",
+          "conversion": "20.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 0, 77.77, 22.22, 0, 0, 0],
+        "shots": [0, 56.32, 34.48, 2.3, 9.2, 56.3, 20.7]
       }
     },
     {
       "name": "wissam ben yedder",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "France",
+          "born": "12/08/1990",
+          "height": "1m70",
+          "weight": "68kg",
+          "preference": "Right",
+          "matchs": "26",
+          "titularisation": "25"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "18",
+          "head": "0",
+          "right": "12",
+          "left": "6",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2173",
+          "mingoal": "120.7"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "64",
+          "ontarget": "37",
+          "offtarget": "14",
+          "onpost": "0",
+          "blocked": "13",
+          "pontarget": "57.8",
+          "conversion": "28.1"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 0, 66.66, 33.33, 0, 0, 0],
+        "shots": [0, 57.8, 21.87, 0, 20.31, 57.8, 28.1]
       }
     },
     {
       "name": "moussa dembele",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
+          "from": "France",
+          "born": "12/07/1996",
           "height": "1m83",
           "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "preference": "Right",
+          "matchs": "27",
+          "titularisation": "24"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
-          "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "total": "16",
+          "head": "2",
+          "right": "12",
+          "left": "1",
+          "other": "1",
+          "min": "2189",
+          "mingoal": "136.8"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "56",
+          "ontarget": "26",
+          "offtarget": "24",
+          "onpost": "1",
+          "blocked": "6",
+          "pontarget": "46.4",
+          "conversion": "28.6"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 12.5, 75, 6.25, 6.25, 0, 0],
+        "shots": [0, 46.42, 42.85, 1.78, 10.71, 46.4, 28.6]
       }
     }
   ],
@@ -343,111 +343,111 @@
       "name": "lionel messi",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Argentina",
+          "born": "24/06/1987",
+          "height": "1m70",
+          "weight": "72kg",
+          "preference": "Left",
+          "matchs": "33",
+          "titularisation": "32"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "25",
+          "head": "0",
+          "right": "2",
+          "left": "23",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2881",
+          "mingoal": "115.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
+          "total": "159",
+          "ontarget": "71",
+          "offtarget": "44",
           "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "blocked": "44",
+          "pontarget": "44.6",
+          "conversion": "15.7"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 0, 8, 92, 0, 0, 0],
+        "shots": [0, 44.65, 27.67, 2.51, 27.67, 44.6, 15.7]
       }
     },
     {
       "name": "karim benzema",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "France",
+          "born": "19/12/1987",
+          "height": "1m85",
+          "weight": "81kg",
+          "preference": "Right",
+          "matchs": "37",
+          "titularisation": "36"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
-          "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "total": "21",
+          "head": "2",
+          "right": "14",
+          "left": "4",
+          "other": "1",
+          "min": "3155",
+          "mingoal": "150.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "124",
+          "ontarget": "60",
+          "offtarget": "47",
+          "onpost": "5",
+          "blocked": "17",
+          "pontarget": "48.4",
+          "conversion": "16.9"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 9.5, 66.66, 19, 4.76, 0, 0],
+        "shots": [0, 48.39, 37.9, 4, 13.7, 48.4, 16.9]
       }
     },
     {
       "name": "gerard moreno",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
+          "from": "Spain",
+          "born": "07/04/1992",
+          "height": "1m80",
+          "weight": "75kg",
+          "preference": "Left",
           "matchs": "35",
-          "titularisation": "34"
+          "titularisation": "33"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "18",
+          "head": "1",
+          "right": "4",
+          "left": "13",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2755",
+          "mingoal": "153"
         },
         "shots": {
           "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
+          "ontarget": "35",
+          "offtarget": "36",
+          "onpost": "3",
           "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "pontarget": "39.3",
+          "conversion": "20.2"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 5.55, 22.22, 72.22, 0, 0, 0],
+        "shots": [0, 39.32, 40.45, 3.37, 20.22, 39.3, 20.2]
       }
     }
   ],
@@ -456,111 +456,111 @@
       "name": "ciro immobile",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Italy",
+          "born": "20/02/1990",
+          "height": "1m85",
+          "weight": "85kg",
+          "preference": "Right",
+          "matchs": "37",
+          "titularisation": "36"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "36",
+          "head": "2",
+          "right": "28",
+          "left": "6",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "3176",
+          "mingoal": "88.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "142",
+          "ontarget": "71",
+          "offtarget": "48",
+          "onpost": "6",
+          "blocked": "23",
+          "pontarget": "50",
+          "conversion": "25.3"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 5.55, 77.77, 16.66, 0, 0, 0],
+        "shots": [0, 50, 33.8, 4.22, 16.2, 50, 25.3]
       }
     },
     {
       "name": "cristiano ronaldo",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Portugal",
+          "born": "05/02/1985",
+          "height": "1m87",
+          "weight": "84kg",
+          "preference": "Right",
+          "matchs": "33",
+          "titularisation": "33"
         },
         "goals": {
-          "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "total": "31",
+          "head": "2",
+          "right": "24",
+          "left": "5",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2919",
+          "mingoal": "94.2"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
-          "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "total": "208",
+          "ontarget": "80",
+          "offtarget": "62",
+          "onpost": "6",
+          "blocked": "66",
+          "pontarget": "38.5",
+          "conversion": "14.9"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 6.45, 77.42, 16.13, 0, 0, 0],
+        "shots": [0, 38.46, 29.81, 2.88, 31.73, 38.5, 14.9]
       }
     },
     {
       "name": "romelu lukaku",
       "stats": {
         "infos": {
-          "from": "germany",
-          "born": "12/07/1986",
-          "height": "1m83",
-          "weight": "74kg",
-          "preference": "right",
-          "matchs": "35",
-          "titularisation": "34"
+          "from": "Belgium",
+          "born": "13/05/1993",
+          "height": "1m90",
+          "weight": "93kg",
+          "preference": "Left",
+          "matchs": "36",
+          "titularisation": "33"
         },
         "goals": {
           "total": "23",
-          "head": "3",
-          "right": "11",
-          "left": "9",
+          "head": "4",
+          "right": "4",
+          "left": "15",
           "other": "0",
-          "min": "3034",
-          "mingoal": "131.9"
+          "min": "2984",
+          "mingoal": "129.7"
         },
         "shots": {
-          "total": "89",
-          "ontarget": "43",
+          "total": "99",
+          "ontarget": "47",
           "offtarget": "28",
-          "onpost": "4",
-          "blocked": "18",
-          "pontarget": "48",
-          "conversion": "25.8"
+          "onpost": "1",
+          "blocked": "24",
+          "pontarget": "47.5",
+          "conversion": "23.2"
         }
       },
       "percent": {
         "infos": [0, 0, 0, 0, 0, 0, 0],
-        "goals": [0, 5, 40, 25, 0, 0, 0],
-        "shots": [0, 50, 30, 2, 25, 48, 25.8]
+        "goals": [0, 17.4, 14.4, 65.22, 0, 0, 0],
+        "shots": [0, 47.47, 28.28, 1, 24.24, 47.5, 23.2]
       }
     }
   ]
