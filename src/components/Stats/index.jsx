@@ -1,16 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import Nav from './Nav'
+import Content from './Content'
 
 const Container = styled.div`
-  display: flex;
-  align-items: center;
   position: absolute;
   top: 0;
   right: 0;
   width: 37.5%;
   height: 100%;
-  padding: 1rem;
+  min-height: 35rem;
   @media ${({ theme }) => theme.medias.portrait} {
     top: 62.5%;
     left: 0;
@@ -19,8 +18,18 @@ const Container = styled.div`
   }
 `
 
-const Content = styled.div`
+const Wrapper = styled.div`
+  position: absolute;
+  top: 50%;
+  left: 0;
+  padding: 1rem;
   width: 100%;
+  transform: translateY(-50%);
+  @media ${({ theme }) => theme.medias.portrait} {
+    top: 0;
+    transform: translateY(0);
+    padding: 3rem 1rem;
+  }
 `
 
 const Curtain = styled.div`
@@ -41,9 +50,10 @@ const Curtain = styled.div`
 export default () => {
   return (
     <Container>
-      <Content>
+      <Wrapper>
         <Nav />
-      </Content>
+        <Content />
+      </Wrapper>
       <Curtain />
     </Container>
   )

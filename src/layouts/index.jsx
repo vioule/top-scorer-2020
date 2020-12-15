@@ -17,18 +17,188 @@ const Layout = ({ children }) => {
         nodes {
           bl {
             name
+            stats {
+              infos {
+                from
+                born
+                height
+                weight
+                preference
+                matchs
+                titularisation
+              }
+              goals {
+                total
+                head
+                right
+                left
+                other
+                min
+                mingoal
+              }
+              shots {
+                total
+                ontarget
+                offtarget
+                onpost
+                blocked
+                pontarget
+                conversion
+              }
+            }
+            percent {
+              infos
+              goals
+              shots
+            }
           }
           pl {
             name
+            stats {
+              infos {
+                from
+                born
+                height
+                weight
+                preference
+                matchs
+                titularisation
+              }
+              goals {
+                total
+                head
+                right
+                left
+                other
+                min
+                mingoal
+              }
+              shots {
+                total
+                ontarget
+                offtarget
+                onpost
+                blocked
+                pontarget
+                conversion
+              }
+            }
+            percent {
+              infos
+              goals
+              shots
+            }
           }
           l1 {
             name
+            stats {
+              infos {
+                from
+                born
+                height
+                weight
+                preference
+                matchs
+                titularisation
+              }
+              goals {
+                total
+                head
+                right
+                left
+                other
+                min
+                mingoal
+              }
+              shots {
+                total
+                ontarget
+                offtarget
+                onpost
+                blocked
+                pontarget
+                conversion
+              }
+            }
+            percent {
+              infos
+              goals
+              shots
+            }
           }
           ll {
             name
+            stats {
+              infos {
+                from
+                born
+                height
+                weight
+                preference
+                matchs
+                titularisation
+              }
+              goals {
+                total
+                head
+                right
+                left
+                other
+                min
+                mingoal
+              }
+              shots {
+                total
+                ontarget
+                offtarget
+                onpost
+                blocked
+                pontarget
+                conversion
+              }
+            }
+            percent {
+              infos
+              goals
+              shots
+            }
           }
           sa {
             name
+            stats {
+              infos {
+                from
+                born
+                height
+                weight
+                preference
+                matchs
+                titularisation
+              }
+              goals {
+                total
+                head
+                right
+                left
+                other
+                min
+                mingoal
+              }
+              shots {
+                total
+                ontarget
+                offtarget
+                onpost
+                blocked
+                pontarget
+                conversion
+              }
+            }
+            percent {
+              infos
+              goals
+              shots
+            }
           }
         }
       }

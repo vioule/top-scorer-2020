@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 import { useDispatch, useSelector } from 'react-redux'
-import gsap from 'gsap/gsap-core'
+import gsap from 'gsap'
 import { Description } from '../Texts'
 import { setStatsMenu } from '../../store/stats/action'
 

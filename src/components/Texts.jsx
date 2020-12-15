@@ -17,9 +17,11 @@ export const Raleway = styled.span`
 `
 
 export const Description = styled(Raleway)`
+  display: inline-block;
   font-size: 0.9rem;
 `
 export const Content = styled(BarlowCondensed)`
+  display: inline-block;
   font-size: 1rem;
 `
 export const Name = styled(Raleway)`
