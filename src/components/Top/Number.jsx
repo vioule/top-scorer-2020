@@ -9,6 +9,7 @@ const StyledTransitionGroup = styled(TransitionGroup)`
   position: relative;
   width: 11.11%;
   height: 15%;
+  min-height: 7rem;
   background-color: ${({ theme }) => theme.colors.light};
   @media ${({ theme }) => theme.medias.portrait} {
     top: unset;
@@ -16,6 +17,8 @@ const StyledTransitionGroup = styled(TransitionGroup)`
     left: 0;
     width: 15%;
     height: 11.11%;
+    min-height: unset;
+    min-width: 3rem;
   }
 `
 

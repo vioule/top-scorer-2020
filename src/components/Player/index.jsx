@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Image from './Image'
 
 const Container = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 6.25%;
   width: 50%;

@@ -4,12 +4,13 @@ import Number from './Number'
 import Marquee from './Marquee'
 
 const Wrapper = styled.div`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 6.25%;
   width: 56.25%;
   height: 100%;
   @media ${({ theme }) => theme.medias.portrait} {
+    position: absolute;
     top: 6.25%;
     left: 0;
     width: 100%;
@@ -40,6 +41,7 @@ const MarqueeContainer = styled.div`
   height: 6.25vw;
   transform-origin: top left;
   transform: rotateZ(90deg);
+  background-color: ${({ theme }) => theme.colors.light};
   @media ${({ theme }) => theme.medias.portrait} {
     top: unset;
     bottom: 0;

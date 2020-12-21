@@ -10,6 +10,7 @@ const Container = styled.div`
   width: 37.5%;
   height: 100%;
   min-height: 35rem;
+  background-color: ${({ theme }) => theme.colors.light};
   @media ${({ theme }) => theme.medias.portrait} {
     top: 62.5%;
     left: 0;
@@ -40,7 +41,7 @@ const Curtain = styled.div`
   height: 100%;
   background-color: ${({ theme }) => theme.colors.light};
   @media ${({ theme }) => theme.medias.portrait} {
-    top: -16.667%;
+    top: -6.25vh;
     left: 0;
     width: 100%;
     height: 116.667%;
