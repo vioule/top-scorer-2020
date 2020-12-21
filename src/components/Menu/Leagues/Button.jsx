@@ -34,8 +34,6 @@ const SVGContainer = styled.div`
   transform: translate(-50%, -50%);
   width: 1.667rem;
   height: 1.667rem;
-  /* max-width: 1.875rem;
-  max-height: 1.875rem; */
   @media ${({ theme }) => theme.medias.portrait} {
     width: 1.25rem;
     height: 1.25rem;
