@@ -6,8 +6,8 @@
         "infos": {
           "from": "Poland",
           "born": "21/08/1988",
-          "height": "1m84",
-          "weight": "80kg",
+          "height": "6.03ft/1m84",
+          "weight": "176.37lbs/80kg",
           "preference": "Right",
           "matchs": "31",
           "titularisations": "31"
@@ -43,8 +43,8 @@
         "infos": {
           "from": "Germany",
           "born": "06/03/1996",
-          "height": "1m80",
-          "weight": "76kg",
+          "height": "5.9ft/1m80",
+          "weight": "167.55lbs/76kg",
           "preference": "Right",
           "matchs": "34",
           "titularisations": "33"
@@ -80,8 +80,8 @@
         "infos": {
           "from": "United Kingdom",
           "born": "25/03/2000",
-          "height": "1m80",
-          "weight": "76kg",
+          "height": "5.9ft/1m80",
+          "weight": "167.55lbs/76kg",
           "preference": "Right",
           "matchs": "32",
           "titularisations": "25"
@@ -119,8 +119,8 @@
         "infos": {
           "from": "United Kingdom",
           "born": "11/01/1987",
-          "height": "1m79",
-          "weight": "74kg",
+          "height": "5.87ft/1m79",
+          "weight": "163.14lbs/74kg",
           "preference": "Right",
           "matchs": "35",
           "titularisations": "34"
@@ -156,8 +156,8 @@
         "infos": {
           "from": "France",
           "born": "18/06/1989",
-          "height": "1m87",
-          "weight": "80kg",
+          "height": "6.13ft/1m87",
+          "weight": "176.37lbs/80kg",
           "preference": "Right",
           "matchs": "36",
           "titularisations": "35"
@@ -193,8 +193,8 @@
         "infos": {
           "from": "United Kingdom",
           "born": "23/07/1992",
-          "height": "1m78",
-          "weight": "73kg",
+          "height": "5.83ft/1m78",
+          "weight": "160.93lbs/73kg",
           "preference": "Right",
           "matchs": "38",
           "titularisations": "32"
@@ -232,8 +232,8 @@
         "infos": {
           "from": "France",
           "born": "20/12/1998",
-          "height": "1m78",
-          "weight": "73kg",
+          "height": "5.83ft/1m78",
+          "weight": "160.93lbs/73kg",
           "preference": "Right",
           "matchs": "20",
           "titularisations": "17"
@@ -269,8 +269,8 @@
         "infos": {
           "from": "France",
           "born": "12/08/1990",
-          "height": "1m70",
-          "weight": "68kg",
+          "height": "5.57ft/1m70",
+          "weight": "149.91lbs/68kg",
           "preference": "Right",
           "matchs": "26",
           "titularisations": "25"
@@ -306,8 +306,8 @@
         "infos": {
           "from": "France",
           "born": "12/07/1996",
-          "height": "1m83",
-          "weight": "74kg",
+          "height": "6ft/1m83",
+          "weight": "163.14lbs/74kg",
           "preference": "Right",
           "matchs": "27",
           "titularisations": "24"
@@ -345,8 +345,8 @@
         "infos": {
           "from": "Argentina",
           "born": "24/06/1987",
-          "height": "1m70",
-          "weight": "72kg",
+          "height": "5.57ft/1m70",
+          "weight": "158.73lbs/72kg",
           "preference": "Left",
           "matchs": "33",
           "titularisations": "32"
@@ -382,8 +382,8 @@
         "infos": {
           "from": "France",
           "born": "19/12/1987",
-          "height": "1m85",
-          "weight": "81kg",
+          "height": "6.06ft/1m85",
+          "weight": "178.57lbs/81kg",
           "preference": "Right",
           "matchs": "37",
           "titularisations": "36"
@@ -419,8 +419,8 @@
         "infos": {
           "from": "Spain",
           "born": "07/04/1992",
-          "height": "1m80",
-          "weight": "75kg",
+          "height": "5.9ft/1m80",
+          "weight": "165.34lbs/75kg",
           "preference": "Left",
           "matchs": "35",
           "titularisations": "33"
@@ -458,8 +458,8 @@
         "infos": {
           "from": "Italy",
           "born": "20/02/1990",
-          "height": "1m85",
-          "weight": "85kg",
+          "height": "6.06ft/1m85",
+          "weight": "187.39lbs/85kg",
           "preference": "Right",
           "matchs": "37",
           "titularisations": "36"
@@ -495,8 +495,8 @@
         "infos": {
           "from": "Portugal",
           "born": "05/02/1985",
-          "height": "1m87",
-          "weight": "84kg",
+          "height": "6.13ft/1m87",
+          "weight": "185.18lbs/84kg",
           "preference": "Right",
           "matchs": "33",
           "titularisations": "33"
@@ -532,8 +532,8 @@
         "infos": {
           "from": "Belgium",
           "born": "13/05/1993",
-          "height": "1m90",
-          "weight": "93kg",
+          "height": "6.23ft/1m90",
+          "weight": "205.03lbs/93kg",
           "preference": "Left",
           "matchs": "36",
           "titularisations": "33"
