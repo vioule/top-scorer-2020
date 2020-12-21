@@ -115,8 +115,8 @@ export default () => {
               <Mask>
                 <Description className="description">
                   {x[0]
-                    .replaceAll('_', ' ')
-                    .replaceAll('percent', '%')
+                    .replace(/_/g, ' ')
+                    .replace('percent', '%')
                     .replace('per', '/')}
                 </Description>
               </Mask>

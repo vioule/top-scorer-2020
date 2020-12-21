@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const StyledSVG = styled.svg`
   width: 100%;
-  padding: 0.5rem;
+  height: 100%;
   fill: none;
   stroke: ${({ theme }) => theme.colors.light};
   @media ${({ theme }) => theme.medias.portrait} {

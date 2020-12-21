@@ -6,28 +6,34 @@ import { setTop } from '../../../store/menu/action'
 
 const SubContainer = styled.div`
   position: absolute;
-  top: 0;
+  top: 1rem;
   left: 0;
   width: 100%;
-  opacity: 0.5;
+  height: 5.556rem;
+  opacity: ${({ top }) => (top === 1 ? 0.15 : 0.5)};
   transition: opacity 0.25s linear;
   &:hover {
-    opacity: ${({ top }) => (top > 1 ? 1 : 0.5)};
+    opacity: ${({ top }) => (top > 1 ? 1 : 0.15)};
   }
   @media ${({ theme }) => theme.medias.portrait} {
+    top: unset;
+    left: 1rem;
     width: unset;
     height: 100%;
+    padding: 0.75rem 0;
   }
 `
 const AddContainer = styled(SubContainer)`
   top: unset;
-  bottom: 0;
+  bottom: 1rem;
+  opacity: ${({ top }) => (top === 3 ? 0.15 : 0.5)};
   &:hover {
-    opacity: ${({ top }) => (top < 3 ? 1 : 0.5)};
+    opacity: ${({ top }) => (top < 3 ? 1 : 0.15)};
   }
   @media ${({ theme }) => theme.medias.portrait} {
+    bottom: unset;
     left: unset;
-    right: 0;
+    right: 1rem;
   }
 `
 
