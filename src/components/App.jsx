@@ -20,6 +20,7 @@ import {
 } from '../transitions'
 import { setTop } from '../store/menu/action'
 import { setStatsLeague } from '../store/stats/action'
+import Signature from './Signature'
 
 export default () => {
   const preventLeagueTransitionOnMount = useRef(false)
@@ -72,7 +73,7 @@ export default () => {
   useEffect(() => {
     const handleMatchMedia = e => {
       if (e.matches) {
-        gsap.set(ref.current.children[3], {
+        gsap.set(ref.current.children[4], {
           width: '6.25%',
           height: '100%',
           background: `linear-gradient(${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -92,7 +93,7 @@ export default () => {
           width: '11.11%',
         })
       } else {
-        gsap.set(ref.current.children[3], {
+        gsap.set(ref.current.children[4], {
           width: '100%',
           height: '6.25vh',
           background: `linear-gradient(to right, ${themeContext.colors.dark}, ${themeContext.colors[league]})`,
@@ -124,6 +125,7 @@ export default () => {
       <Player />
       <Top />
       <Stats />
+      <Signature />
       <Primary />
       <Menu />
     </div>

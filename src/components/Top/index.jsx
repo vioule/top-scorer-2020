@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   height: 100%;
   @media ${({ theme }) => theme.medias.portrait} {
     position: absolute;
-    top: 6.25%;
+    top: 6.25vh;
     left: 0;
     width: 100%;
     height: 56.25vh;

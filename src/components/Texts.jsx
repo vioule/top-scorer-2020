@@ -16,6 +16,12 @@ export const Raleway = styled.span`
   text-transform: uppercase;
 `
 
+export const Roboto = styled.span`
+  font-family: ${({ theme }) => theme.fonts.Roboto};
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+`
+
 export const Description = styled(Raleway)`
   display: inline-block;
   font-size: 0.9rem;

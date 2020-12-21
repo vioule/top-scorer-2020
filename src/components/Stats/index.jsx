@@ -11,8 +11,9 @@ const Container = styled.div`
   height: 100%;
   min-height: 35rem;
   background-color: ${({ theme }) => theme.colors.light};
+  color: ${({ theme }) => theme.colors.dark};
   @media ${({ theme }) => theme.medias.portrait} {
-    top: 62.5%;
+    top: 62.5vh;
     left: 0;
     width: 100%;
     height: 37.5vh;

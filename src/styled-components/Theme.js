@@ -11,6 +11,7 @@ export default {
   fonts: {
     Raleway: "'Raleway', sans-serif",
     BarlowCondensed: "'Barlow Condensed', sans-serif",
+    Roboto: "'Roboto', sans-serif",
   },
   medias: {
     desktopL: '(max-width: 1899px)',
