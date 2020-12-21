@@ -8,16 +8,22 @@ import { setLeague } from '../../../store/menu/action'
 const Container = styled.div`
   position: relative;
   width: 100%;
-  padding-bottom: 100%;
+  height: 2.778rem;
   opacity: ${({ active }) => (active ? 1 : 0.5)};
   transition: opacity 0.25s linear;
   &:hover {
     opacity: 1;
   }
+  & + div {
+    margin-top: 1rem;
+  }
   @media ${({ theme }) => theme.medias.portrait} {
-    width: 6.25vh;
+    width: 2.778rem;
     height: 100%;
-    padding-bottom: 0;
+    & + div {
+      margin-top: 0;
+      margin-left: 0.25rem;
+    }
   }
 `
 
@@ -26,13 +32,13 @@ const SVGContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  max-width: 1.875rem;
-  max-height: 1.875rem;
+  width: 1.667rem;
+  height: 1.667rem;
+  /* max-width: 1.875rem;
+  max-height: 1.875rem; */
   @media ${({ theme }) => theme.medias.portrait} {
-    max-width: 1.5rem;
-    max-height: 1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 `
 
@@ -41,8 +47,12 @@ const CircleContainer = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 170%;
-  height: 170%;
+  width: 2.778rem;
+  height: 2.778rem;
+  @media ${({ theme }) => theme.medias.portrait} {
+    width: 2.084rem;
+    height: 2.084rem;
+  }
 `
 const Circle = styled.div`
   position: absolute;
