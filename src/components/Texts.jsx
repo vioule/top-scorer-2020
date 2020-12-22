@@ -40,7 +40,7 @@ export const Number = styled(BarlowCondensedBold)`
 export const Date = styled(BarlowCondensedBold)`
   display: inline-block;
   position: relative;
-  top: -0.5rem;
+  top: -0.3rem;
   font-size: 4.73rem;
   letter-spacing: 0.1em;
 `

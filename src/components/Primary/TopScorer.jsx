@@ -10,15 +10,17 @@ const Container = styled.span`
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  column-gap: 1rem;
   padding: 6.25%;
   color: ${({ theme }) => theme.colors.light};
 `
 
 const Mask = styled.div`
   overflow: hidden;
+  & + div {
+    margin-left: 1rem;
+  }
 `
 
 export default () => (
